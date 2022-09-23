@@ -13,7 +13,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-
+<style>
+    .calendar{
+      
+        padding: 30px;
+    }
+    #calendargit{
+        text-align: center;
+        padding: 50px;
+        color:  rgb(70, 96, 214);
+    }
+</style>
 </head>
 <body>
     <div class="scroll-up-btn">
@@ -291,6 +301,25 @@
         </div>
     </section>
 
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
+    
+    <h1 id="calendargit"> Github stats </h1>
+    <div class="calendar">
+    
+        <!-- this is the div where your calander will apear -->
+    
+    </div>
+    
+    
+    
+    <script>
+        // write your username at dineshjangid03 for your calander
+        GitHubCalendar(".calendar", "singhaman8859");
+        GitHubCalendar(".calendar", "singhaman8859", { responsive: true });
+    </script>
+    
+    
     <!-- footer section start -->
     <footer>
         <span</span> 
